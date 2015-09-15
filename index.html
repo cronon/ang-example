@@ -17,7 +17,9 @@
   </div>
   <div ng-controller="catController">
     <button ng-click="nextCat()">next</button>
-    <img width="400" heigth="400" ng-src="{{src}}"/>
+    <div style="width:400px; height:400px">
+      <img width="400" heigth="400" ng-src="{{src}}"/>
+    </div>
   </div>
   <script type="text/javascript" src="js/lodash.js"></script>
   <script type="text/javascript" src="js/angular.js"></script>

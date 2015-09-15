@@ -20,7 +20,7 @@
 
 
   myApp.config(function (catServiceProvider){
-    catServiceProvider.setType('jpg')
+    catServiceProvider.setType('png')
   })
 
   myApp.controller('catController', function($scope, catService){
