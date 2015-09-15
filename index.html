@@ -15,9 +15,14 @@
     <div class='colorsButton' origin='{{origin}}' color='{{color}}'>
     </div>
   </div>
+  <div ng-controller="catController">
+    <button ng-click="nextCat()">next</button>
+    <img width="400" heigth="400" ng-src="{{src}}"/>
+  </div>
   <script type="text/javascript" src="js/lodash.js"></script>
   <script type="text/javascript" src="js/angular.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/provider.js"></script>
   <script type="text/javascript" src="js/service.js"></script>
   <script type="text/javascript" src="js/directive.js"></script>
 </body>
